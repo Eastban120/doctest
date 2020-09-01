@@ -13,4 +13,4 @@
 
 
 [GitHub](https://github.com/Estebank97/Keep-Node-Docs/)
-[Get Started](#basics/start.md)
+[Get Started](basics/start.md)
