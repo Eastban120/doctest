@@ -21,11 +21,15 @@
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+  
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 
 </head>
 <body>
   <div id="app"></div>
   <script>
+    
+var repo = 'https://github.com/Estebank97/Keep-Node-Docs';
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
@@ -35,7 +39,8 @@
       homepage: '/basics/start.md',
       coverpage: true,
       loadSidebar: true,
-
+      repo: repo,
+      
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top   : true,
@@ -54,6 +59,11 @@
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
+        EditOnGithubPlugin.create(
+            repo + '/blob/master/docs/'
+        )
+    ],
+      [
         function (hook, vm) {
           hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
