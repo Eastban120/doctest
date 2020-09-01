@@ -1,10 +1,9 @@
 <!-- _coverpage.md -->
 
-![logo](_assets/keep-token-main.png)
 
-# docsify <small>3.5</small>
+# KEEP NETWORK
 
-> Keep Community Documentation.
+> Community Curated Documentation.
 
 - Staking Explanation, Comparisons and Options
 - Node Deployment, Operation and Troubleshooting
