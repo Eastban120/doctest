@@ -7,7 +7,7 @@
 
 > Community Curated Documentation
 
-- :sparkles: Staking in Keep Network
+- :heavy_check_mark: Staking in Keep Network
 - :open_file_folder: Explanation, Roi, Comparisons & Options
 - :pushpin: Rewards, Economics, Slashing & Liquidation
 - :nut_and_bolt: Node Deployment, Operation, Troubleshooting & Risk Mitigation
