@@ -6,11 +6,14 @@
 
 > Community Curated Documentation
 
-- Staking in Keep Network
-- Explanation, Roi, Comparisons & Options
-- Rewards, Economics, Slashing & Liquidation
-- Node Deployment, Operation, Troubleshooting & Risk Mitigation
+- :sparkles: Staking in Keep Network
+- :open_file_folder: Explanation, Roi, Comparisons & Options
+- :pushpin: Rewards, Economics, Slashing & Liquidation
+- :nut_and_bolt: Node Deployment, Operation, Troubleshooting & Risk Mitigation
 
 
 [GitHub](https://github.com/Estebank97/Keep-Node-Docs/)
 [Get Started](basics/start.md)
+
+<!-- background color -->
+![color](#E6E6E6)
